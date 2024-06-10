@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgstorytwo"
+    tools:context=".goldilocks_and_three_bears">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="318dp"
+        android:layout_height="584dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="262dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/berkshire_swash"
+                android:shadowColor="#BCBCBC"
+                android:shadowDx="4"
+                android:shadowDy="2"
+                android:shadowRadius="0.3"
+                android:text="Goldilocks and\nthe Three Bears"
+                android:textAlignment="center"
+                android:textColor="#2A3751"
+                android:textSize="28sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.039" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/goldilocksstory" />
+
+            <ImageButton
+                android:id="@+id/playbutton"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="fitCenter"
+                android:src="@drawable/goldilocksplaybutton" />
+
+
+            <!-- Adding TextView elements here -->
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="Once upon a time, a little girl named Goldilocks was playing in the woods near her home. A yummy smell drifted down the pebbly path." />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/bearsone" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="Goldilocks followed the smell to a little house. She knocked on the front door. But there was no one home. Goldilocks was so hungry she followed the smell inside.\n" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="In the kitchen, she saw a big bowl, a medium sized bowl, and a teeny tiny bowl of porridge. \n" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/bearstwo" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="First Goldilocks tried the porridge in the biggest bowl, but it was too cold. Next, she tried the porridge in a medium sized bowl, but it was too hot. \n" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="Finally, she tried the porridge in the smallest bowl. Um, it was just right. And she ate it all up. \n" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/bearsthree" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="Then Goldilocks went into the living room for a rest. Goldilocks sat in the big chair, but it was too high up. \n" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="She sat in the medium sized chair, but it was too squishy. Then Goldilocks sat in the tiny chair, and it was just right. But then crack the chair broke into teeny tiny pieces. \n"/>
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="'Oh!' Goldilocks gasped in surprise. 'Perhaps I should lie down instead.'\n" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="Upstairs, Goldilocks lay down on the big bed. But it was too hard. Then she lay down on the medium sized bed, but it was too soft.\n" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/bearsfour" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="Finally, she lay down on the teeny tiny bed. It was just right, and she fell fast asleep.\n" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="Meanwhile, a big daddy bear, a medium sized mommy bear, and a teeny tiny baby bear returned home.\n\nThey had been for a walk while their hot porridge cooled down.\n" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/bearsfive" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="'Someone's been eating my porridge.' Roared Daddy Bear.\n" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="'Someone's been eating my porridge too.' Growled Mommy Bear.\n" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="'Look', squeaked Baby Bear, 'My Porridge is all gone'.\n" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="The three bears went into the living room. 'Someone's been sitting in my chair.' Growled daddy bear.\n" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="'Someone's been sitting in my chair, too.' Growled Mommy Bear.\n\n'Someone's been sitting in my chair.', squeaked Baby Bear, 'And they've broken their arm.'\n" />
+
+
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="The three bears went upstairs. 'Someone's been sleeping in my bed.' Roared Daddy Bear.\n\n'Someone's been sleeping in my bed too.' Growled Mommy Bear.\n" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/bearssix" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="'Someone's been sleeping in my bed.' Squeaked Baby Bear. 'And she is still there.'\n" />
+
+
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="At that moment, Goldilocks woke up when she saw the three Bears. She ran out of their house and all the way home. She never visited the house of the Three Bears ever again.\n" />
+
+            <TextView
+                android:layout_width="135dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/berkshire_swash"
+                android:shadowColor="#000000"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:shadowRadius="0.5"
+                android:text="The End"
+                android:textColor="#FFFFFF"
+                android:textSize="37sp"
+                android:textStyle="normal"
+                android:layout_marginBottom="50dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgstoryfour"
+    tools:context=".elves_and_the_shoemaker">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="318dp"
+        android:layout_height="584dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="262dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/berkshire_swash"
+                android:shadowColor="#BCBCBC"
+                android:shadowDx="4"
+                android:shadowDy="2"
+                android:shadowRadius="0.3"
+                android:text="The Elves and\nthe Shoemaker"
+                android:textAlignment="center"
+                android:textColor="#3B3361"
+                android:textSize="28sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.039" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/elvesstory" />
+
+            <ImageButton
+                android:id="@+id/playbutton"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="fitCenter"
+                android:src="@drawable/elvesplaybutton" />
+
+
+            <!-- Adding TextView elements here -->
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="Once upon a time, there was a kind old shoemaker. He lived with his wife above his workshop. Though the shoemaker worked very hard, he was very poor.\n\nAt last, the day came when he had no more money to buy leather. There was only enough leather on his workbench to make one more pair of shoes." />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/elvesone" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="With a heavy heart, the shoemaker cut out the leather. He was very tired, so he left the leather on his workbench and went upstairs to bed.\n" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="'I will make the shoes in the morning' he told his wife. The next morning, when the shoemaker came downstairs, he had a big surprise.\n" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="There on his workbench was a brand-new pair of shoes. The most beautiful shoes he had ever seen.\n\nHe picked up the shoes and looked at them carefully, top to bottom and heel to toe.\n" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/elvestwo" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="'Look at those tiny, neat stitches. Not a single stitch out of place. These shoes are so fine, they'll fetch a very high price.' He put the shoes in his window right at the front where everyone could see them.\n" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="Very soon the door opened and in strode a handsome, well-dressed young man.\n\n'Good morning, sir. I would like to try on the shoes in the window. They are the finest I've ever seen.' The shoes fit the man perfectly and he paid a very good price for them.\n" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="'Thank you. I will tell all my friends what an excellent craftsman you are.'\n\nNow that he had some money, the shoemaker was able to buy more leather.\n"/>
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="Enough to make two pairs of shoes. Once again, he cut out the leather and left it on the workbench.\n" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/elvesone" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="'There will be plenty of time to make the shoes tomorrow morning', he said, as he and his wife climbed the stairs to bed.\n" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="Early the next morning, the shoemaker came down to his workshop, ready to start work. But once more, a surprise was waiting for him. There on his workbench were two pairs of fine, well-made shoes.\n" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="'I can't believe my eyes. Did I make these shoes in my sleep?' He put the shoes in his window and before even an hour had passed, he had sold both pairs for a very fine price indeed.\n" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/elvesnine" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="'Now I can buy enough leather to make four pairs of shoes', the shoemaker told his wife.\n" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="The next morning, when the shoemaker came down to his workshop, there on his workbench were four pairs of beautiful, shiny new shoes.\n\nJust as before, they were perfectly made, with not a stitch out of place. And just as before, the shoemaker sold all of them for a very good price.\n" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="He bought even more leather, cut out five pairs of shoes, and left the leather on his workbench.\n\nOf course, when he came down the next morning, there were five pairs of shoes, all perfectly made. The same thing happened the next day, and the day after that, and for many days after that." />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/elvesthree" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="Before long, the shoemaker and his wife were rich. One evening, just before Christmas, the shoemaker said to his wife, 'We have been blessed with so much good fortune, but we still don't know who's been making the beautiful shoes. We must find out who's been helping us.'\n" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="His wife agreed. That night, the shoemaker left some leather on his workbench as usual. But instead of going up to bed, he and his wife hid behind a curtain.\n" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/elvesfour" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="They kept very still, and they waited, and waited.\n\nJust as the church clock struck midnight, the shop door flew open, and in came in two little elves, barefoot and dressed in tattered clothes. They danced across the shop and leapt up onto the workbench.\n" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/elvesfive" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="Picking up some needles and thread, they began to sew. Their nimble fingers moved so quickly that the shoes seemed to come together by magic.\n\nAs they worked, they sung, 'See our needles flash and gleam, as we sew each fine straight seam, every pair of shoes we stitch, Helps the shoemaker get rich.'" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/elvessix" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="Before long, they had finished their work, and the new shoes stood neatly on the workbench.\n\nAs quickly as they had arrived, the elves leapt from the workbench and danced out the shop door. The shoemaker and his wife looked at each other in amazement.\n" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="'Those little elves have been so good to us. We must find a way to thank them.'\n\n'Of course', his wife agreed.\n" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="'I have an idea. Did you see how thin and ragged their clothes were? And though they make fine shoes for us, they had none of their own. There's snow on the ground. Those poor little elves must be freezing.'\n\n'Yes', said the shoemaker. It's almost Christmas, so we should make some special gifts for them.\n" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="'You can make them some clothes, and I will make them some warm, sturdy boots. It'll be our turn to surprise them.'\n\nThe next day, the shoemaker used his finest leather to make two tiny pairs of boots.\n" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="Meanwhile, his wife knitted two warm coats, two woolly hats, and two pairs of trousers. They wrapped the clothes in tissue paper, tied with bright ribbons, and left the presents on the workbench. That night, they hid behind the curtain once again and waited for the two elves to arrive.\n" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/elvesseven" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="Just as before, the door opened at the stroke of midnight, and the elves danced in.\n\nWhen they leapt onto the workbench and saw the presents waiting for them, they danced with delight. The little elves eagerly tore open the parcels and put on their new clothes.\n" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="They took each other's hands and danced a little dance on the workbench, singing, 'Thank you, kind shoemaker. Thank you, good wife. May you both have a long and happy life.'\n" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/elveseight" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="Then they leapt off the workbench and skipped merrily out the door. The elves never returned, but the shoemaker and his wife never forgot them.\n" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="They were always grateful for the help they had received when they were in need. And just as the elves had wished, they had a long and happy life together.\n\n" />
+
+            <TextView
+                android:layout_width="135dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/berkshire_swash"
+                android:shadowColor="#000000"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:shadowRadius="0.5"
+                android:text="The End"
+                android:textColor="#FFFFFF"
+                android:textSize="37sp"
+                android:textStyle="normal"
+                android:layout_marginBottom="50dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shapesbg"
+    tools:context=".shapes_page">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="366dp"
+        android:layout_height="532dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.757">
+
+        <!-- Grid Layout for 2x2 Images -->
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="-30dp"
+            android:columnCount="2"
+            android:rowCount="6">
+
+            <!-- First row of 2 images -->
+            <ImageView
+                android:id="@+id/square"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="55dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="Little Red Riding Hood"
+                android:scaleType="centerCrop"
+                android:src="@drawable/square" />
+
+            <ImageView
+                android:id="@+id/rectangle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_marginTop="55dp"
+                android:layout_marginRight="20dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="The Ugly Duckling"
+                android:scaleType="centerCrop"
+                android:src="@drawable/rectangle" />
+
+            <!-- Second row of 2 images -->
+            <ImageView
+                android:id="@+id/triangle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="25dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="Little Red Riding Hood"
+                android:scaleType="centerCrop"
+                android:src="@drawable/triangle" />
+
+            <ImageView
+                android:id="@+id/circle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="20dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="The Ugly Duckling"
+                android:scaleType="centerCrop"
+                android:src="@drawable/circle" />
+
+            <!-- Third row of 2 images -->
+            <ImageView
+                android:id="@+id/pentagon"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="25dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="Little Red Riding Hood"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pentagon" />
+
+            <ImageView
+                android:id="@+id/hexagon"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="20dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="The Ugly Duckling"
+                android:scaleType="centerCrop"
+                android:src="@drawable/hexagon" />
+
+            <!-- Fourth row of 2 images -->
+            <ImageView
+                android:id="@+id/star"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="25dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="Little Red Riding Hood"
+                android:scaleType="centerCrop"
+                android:src="@drawable/star" />
+
+            <ImageView
+                android:id="@+id/oval"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="20dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="The Ugly Duckling"
+                android:scaleType="centerCrop"
+                android:src="@drawable/oval" />
+
+            <!-- Fifth row of 2 images -->
+            <ImageView
+                android:id="@+id/crescent"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="25dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="Little Red Riding Hood"
+                android:scaleType="centerCrop"
+                android:src="@drawable/crescent" />
+
+            <ImageView
+                android:id="@+id/trapezoid"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="20dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="The Ugly Duckling"
+                android:scaleType="centerCrop"
+                android:src="@drawable/trapezoid" />
+
+            <!-- Sixth row of 2 images -->
+            <ImageView
+                android:id="@+id/rhombus"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="25dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="Little Red Riding Hood"
+                android:scaleType="centerCrop"
+                android:src="@drawable/rhombus" />
+
+            <ImageView
+                android:id="@+id/heart"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="20dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="The Ugly Duckling"
+                android:scaleType="centerCrop"
+                android:src="@drawable/heart" />
+
+        </GridLayout>
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/goback"
+        android:layout_width="67dp"
+        android:layout_height="66dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024"
+        app:srcCompat="@drawable/back" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

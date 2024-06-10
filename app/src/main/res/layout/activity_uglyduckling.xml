@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgstorynine"
+    tools:context=".uglyduckling">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="318dp"
+        android:layout_height="584dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="162dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/berkshire_swash"
+                android:shadowColor="#BCBCBC"
+                android:shadowDx="4"
+                android:shadowDy="2"
+                android:shadowRadius="0.3"
+                android:text="The Ugly\nDuckling"
+                android:textAlignment="center"
+                android:textColor="#2A6363"
+                android:textSize="28sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.039" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/uglyducklingstory" />
+
+            <ImageButton
+                android:id="@+id/playbutton"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ugluduclingplaybutton" />
+
+
+            <!-- Adding TextView elements here -->
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="A little duckling was very sad because he thought he was the ugliest amongst all his brothers and sisters. They would not play with him and teased the poor ugly duckling." />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/duckone" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="One day he saw his reflection in the water and cried, 'Nobody likes me! I am so ugly!' He decided to leave home and went far away into the woods.\n" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="Deep in the forest he saw a cottage in which there lived an old woman, her hen, and her cat.\n" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ducktwo" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="The duckling stayed with them for some time, but he was unhappy there and soon left. When winter set in, the poor duckling almost froze to death.\n" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="A peasant took him home to his wife and children.\n" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/duckthree" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="The poor duckling was terrified of the children and escaped. The ugly duckling spent the winter in a marshy pond.\n" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="Finally, spring arrived. One day the duckling saw a beautiful swan swimming in the pond and fell in love with her. \n"/>
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/duckfour" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="But then he remembered how everyone made fun of him and he bent his head down in shame.\n" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="When he saw his own reflection in the water, he was astonished. He was not an ugly duckling anymore, but a handsome young swan. Now he knew why he looked so different from his brothers and sisters.\n\n'They were ducklings, but I was a baby swan', he said to himself.\n" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/duckfive" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="He married the beautiful swan and lived happily ever after.\n\n" />
+
+
+            <TextView
+                android:layout_width="135dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:fontFamily="@font/berkshire_swash"
+                android:shadowColor="#A5A5A5"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:shadowRadius="0.5"
+                android:text="The End"
+                android:textColor="#000000"
+                android:textSize="37sp"
+                android:textStyle="normal" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/stopbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E91E63"
+        android:text="Stop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.887"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <ImageButton
+        android:id="@+id/goback"
+        android:layout_width="67dp"
+        android:layout_height="66dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/back" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

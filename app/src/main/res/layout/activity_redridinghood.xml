@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgstoryone"
+    tools:context=".redridinghood">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="318dp"
+        android:layout_height="584dp"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="162dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/berkshire_swash"
+                android:shadowColor="#BCBCBC"
+                android:shadowDx="4"
+                android:shadowDy="2"
+                android:shadowRadius="0.3"
+                android:text="Little Red\nRiding Hood"
+                android:textAlignment="center"
+                android:textColor="#33463B"
+                android:textSize="28sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.039" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/redridingstory" />
+
+            <ImageButton
+                android:id="@+id/playbutton"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="fitCenter"
+                android:src="@drawable/redridingplaybutton" />
+
+
+            <!-- Adding TextView elements here -->
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:text="Once upon a time there lived a little girl. This girl wore a Red Riding Hood at all times. That's why everybody used to call her little Red Riding Hood.\n\n'Darling.'\n'Yes, mummy.'"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:src="@drawable/redimageone" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:text="'You know your grandmother is ill. Would you take her the cookies I baked and the fresh herbs I picked from the woods?'\n\n'Of course, mommy, I will.'\n\nThe little girl with her Red Riding Hood, as always, started her journey to her grandmother's house. 'Do not leave the road in the bunny forest, sweetheart', said her mother as she was leaving. Little Red Riding Hood started walking in the forest while joyously singing songs.\n"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="15dp"
+                android:src="@drawable/redimagetwo" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:text="'I wonder why they call it the Bunny forest. I haven't seen any bunnies along the way.' Little Red Riding Hood came to a road filled with flowers. There were all kinds of coloured flowers. 'I should pick some flowers for my grandmother. She'll be very pleased.'\nWhen little Red Riding Hood was picking the flowers. She did not realize that she was drifting away from her path.\n"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:text="At that moment she heard a sound coming from the bushes. Suddenly a big bad wolf approached in front of her. Little Red Riding Hood was so scared that when she saw the wolf right in front of her eyes, she dropped the basket that she was carrying.\n"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:text="The wolf jumped closer to her and collected the cookies she had dropped from the basket and gave them back to little Red Riding Hood. Little Red Riding Hood was amazed by this unexpected gesture from the wolf.\n"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:src="@drawable/redimagethree" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:text="'Thank you.'\n'Where are you heading, little girl?'\n\n'To my grandmother's house, the yellow house at the end of this forest. She is not feeling well, so I'm bringing her cookies and healthy herb.'\n"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:text="'Really?'\n\n'By the way, you can call me little Red Riding Hood like everybody else does.'\n\n'I'll head on first and let your grandmother know that you're on your way, so that you can continue picking up your beautiful flowers.'\n\nRight at that moment, he heard a gunshot of an approaching hunters rifle and ran away as fast as he could.\n"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:text="Little Red Riding Hood looked around for a moment and started crying, realizing that she was lost.\n"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:text="Hearing her crying, the hunter approached and came next to her.\n"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:text="'What are you doing alone here, little girl? It's very dangerous around here. I'm looking for a big, bad wolf whom I've been hunting for a very long time.'\nLittle Red Riding Hood was very ashamed because she had not listened to her mother and left the road in the bunny forest, so she could not tell the hunter that she had met the wolf.\n'Um, well, I was bringing cookies to my ill grandmother living at the end of the forest, and I got lost.'\n'Let me bring you to your grandma's home, then.'\n\n"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:text="They started to walk together."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:text="And right then the wolf took a shortcut and quickly made it to the grandmother's house. He knocked on the door. The grandmother yelled from inside.\n\n'Who is it?'\n\nThe wolf changing his voice: 'It's me. Grandma. Little Red Riding Hood. I brought you cookies and fresh herbs from the woods.'\n"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:text="'The door is open, my dear. You can come in.' The wolf smirked and stormed in through the open door.\n"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:text="When a while later, a little Red Riding Hood in the Hunter arrived at the grandmother's house.\n"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:text="'Go, little girl. Go next to your grandmother as soon as possible.'\n"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:text="The hunter went back on his way. Little Red Riding Hood knocked on the door. Her grandmother yelled from inside."
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:src="@drawable/redimagefour" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:text="'Who is it?'\n\n'It's me. Grandma. Little Red Riding Hood.'\n\n'The door is open, my darling. You can come in.'\n\nLittle Red Riding Hood hesitated for a moment because the sound she heard did sound a little different than her grandmother. She then remembered that her grandmother was ill.\n"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:text="'Grandmother probably sounds like that because she is ill.' Little Red Riding Hood opened the door and went in. The wolf, dressed in grandmother's clothing with her nightcap and her glasses, was lying in the bed. He also closed the drapes so that it became dark inside, and little Red Riding Hood could not recognize him."
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="15dp"
+                android:src="@drawable/redimagefive" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:text="'I thank you, darling, for all your trouble getting all the way here to bring me food. Come next to me so I can give you a hug. Come on, darling. Come closer.'\n"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:text="Little Red Riding Hood left the basket on the floor, but she did not get too close to the bed because her grandma looked different.\n\n"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:text="'Why are your arms so long, grandma?'\n\n'So that I can hug you better.'\n\n'Hmm? Why are your ears so big?'\n\n'So that I can hear you better?'\n\n'But why are your eyes so huge?'\n\n'So that I can see you better?'\n\n'Why are your teeth so sharp, grandmother?'\n\n'So that I can eat you better. Hahahahahahaha!'\n\n"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:text="The wolf jumped out of the bed and charged at the little Red Riding Hood. Ah! At that moment, little Red Riding Hood realized that it wasn't her grandmother lying in the bed, but instead the big bad wolf she had ran into along the way. The hunter heard little Red Riding Hood scream “Help me!” and ran straight to the house. Stormed into the open door and caught the wolf immediately.\n"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="15dp"
+                android:src="@drawable/redimagesix" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:text="'I finally got you big bad wolf. Now you're in my hands.' The hunter cut the wolf's belly and rescued the grandmother.\n"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:text="'Thank you for saving us, Mr. Hunter.'\n\nYou're welcome. But promise me, little girl, that you will never forget what your mother asks of you.'\n"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:text="With great appetite, Grandmother ate all the cookies Little Red Riding Hood had brought for her. Boiled the healthy herbs to make a cup of tea and instantly got well.\n"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="15dp"
+                android:src="@drawable/redimageseven" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:text="Little Red Riding Hood promised her grandmother that she will never, ever fall into the words of a bad wolf again.\n\n"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="135dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/berkshire_swash"
+                android:shadowColor="#000000"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:shadowRadius="0.5"
+                android:text="The End"
+                android:textColor="#FFFFFF"
+                android:textSize="37sp"
+                android:textStyle="normal"
+                android:layout_marginBottom="50dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/stopbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E91E63"
+        android:text="Stop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.887"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <ImageButton
+        android:id="@+id/goback"
+        android:layout_width="67dp"
+        android:layout_height="66dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/back" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

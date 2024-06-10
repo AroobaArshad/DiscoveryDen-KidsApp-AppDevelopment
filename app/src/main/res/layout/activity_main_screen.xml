@@ -1,0 +1,200 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bggg"
+    tools:context=".MainScreenActivity">
+
+    <!-- Username TextView -->
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/mali_medium"
+        android:text="Welcome"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.42"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.106" />
+
+    <TextView
+        android:id="@+id/welcomeMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/mali_medium"
+        android:text=""
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/welcomeText"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.106" />
+
+    <ImageView
+        android:id="@+id/selectedAvatar"
+        android:layout_width="86dp"
+        android:layout_height="86dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.114" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="353dp"
+        android:layout_height="385dp"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Wide Image at the Top -->
+            <ImageView
+                android:id="@+id/storiesPage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:contentDescription="wide_image_top_desc"
+                android:scaleType="fitCenter"
+                android:src="@drawable/storyoption" />
+
+            <!-- Grid Layout for 2x2 Images -->
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-30dp"
+                android:columnCount="2"
+                android:rowCount="2">
+
+                <!-- First row of 2 images -->
+                <ImageView
+                    android:id="@+id/numbersPage"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="8dp"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="short_image1_desc"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/numberoption" />
+
+                <ImageView
+                    android:id="@+id/alphabetsPage"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="8dp"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="short_image2_desc"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/alphabetoption" />
+
+                <!-- Second row of 2 images -->
+                <ImageView
+                    android:id="@+id/shapesPage"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="8dp"
+                    android:layout_marginTop="-15dp"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="short_image3_desc"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/shapeoption" />
+
+                <ImageView
+                    android:id="@+id/seasonsPage"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="8dp"
+                    android:layout_marginTop="-15dp"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="short_image4_desc"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/seasonoption" />
+
+            </GridLayout>
+
+            <!-- Wide Image at the Bottom -->
+            <ImageView
+                android:id="@+id/animalsPage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-30dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="wide_image_bottom_desc"
+                android:scaleType="fitCenter"
+                android:src="@drawable/animaloption" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/mali_medium"
+        android:text="What would you like \nto do today?"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.617"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcomeMessage"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageButton
+        android:id="@+id/menuButton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitCenter"
+        android:tint="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.014"
+        app:srcCompat="@drawable/menubtn" />
+
+    <include
+        android:id="@+id/profileLayout"
+        layout="@layout/profile_slide_in"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/instructbtn"
+        android:layout_width="69dp"
+        android:layout_height="53dp"
+        android:backgroundTint="#00FFFFFF"
+        android:onClick="showInstructionsPopup"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.982"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/buttoninstruct" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

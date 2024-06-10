@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgstoryfive"
+    tools:context=".snow_white">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="318dp"
+        android:layout_height="584dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="262dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/berkshire_swash"
+                android:shadowColor="#BCBCBC"
+                android:shadowDx="4"
+                android:shadowDy="2"
+                android:shadowRadius="0.3"
+                android:text="Snow White and\nthe Seven Dwarfs"
+                android:textAlignment="center"
+                android:textColor="#784211"
+                android:textSize="28sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.039" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/snowwhitestory" />
+
+            <ImageButton
+                android:id="@+id/playbutton"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="fitCenter"
+                android:src="@drawable/snowwhiteplaybutton" />
+
+
+            <!-- Adding TextView elements here -->
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="Once upon a time, there was a lovely young princess called Snow White. She lived in a big castle at the edge of a deep, dark forest." />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/snowwhiteone" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="Snow White's mother had died when she was a baby, and her father married again.\nThe new queen, Snow White's stepmother, was very beautiful, but she was cruel and selfish, and did not love Snow White." />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/snowwhitetwo" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="Every morning, she stood before her magic mirror and asked,\n\n'Mirror, mirror on the wall, who's the fairest of us all?'\n\nAnd every day, the magic mirror answered, My queen, you are the fairest one of all. This made the queen very happy.\n" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="As time passed, Snow White grew into a beautiful young girl. And one morning, the magic mirror had a different answer for the queen.\n" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="'You are beautiful, queen. That is true. But Snow White is even more lovely than you.'\n\n'What? This cannot be.'\n\nIn rage, she called for her huntsman. 'Take Snow White deep into the forest and kill her. Bring her heart back to me as proof that she is dead.'" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/snowwhitethree" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="The huntsman took Snow White to the forest, but she was so sweet and gentle that he could not bring himself to harm her. 'Run away, child, and don't ever come back. If you do, the queen will have you killed.'\n" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="On his way home, the huntsman killed a wild boar and took its heart back to the queen. Snow White was terrified. It was getting dark, and she knew there were wolves and bears in the forest."/>
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/snowwhitefour" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="With tears in her eyes, she stumbled over stones and tree roots. Thorny branches scratched her arms and tore her clothes. As darkness fell, she came to a neat little cottage in a clearing.\n" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/snowwhitefive" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="The door was open, so she tiptoed in. She saw seven dwarves sitting at a table eating their dinner.\n\n'Who are you, child?' asked the oldest dwarf. 'And what has brought you here?'\n" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/snowwhitesix" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="'I am Princess Snow White. My stepmother, the queen, hates me and wants to have me killed. I am so frightened, and I have nowhere to go.'\n" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="'You can stay with us, said one of the dwarves. The queen will not find you here, and we will keep you safe.'\n'Thank you', said Snow White.\n" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="The next morning, the seven dwarves left for work in the mines, as they did every day. 'Keep the door locked and don't let anyone in. We will be home at dinner time.'\n" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/snowwhiteseven" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="Snow White spent the morning cleaning and tidying the cottage. She opened the window so she could hear the birds singing, and she sang along with them. Meanwhile, in the castle, the wicked queen stood before her magic mirror." />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="\n'Mirror, mirror on the wall, who's the fairest of us all?'\n\nAnd the mirror replied, 'You, oh queen, have beauty rare, but Princess Snow White is still more fair.'\n\n'What? The huntsman tricked me! Where is Snow White?'\n" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="The mirror, which always told the truth, replied, 'She lives in a cottage deep in the wood, with seven dwarves who are kind and good.'\n'I will find her and kill her myself', the queen declared.\n" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="She quickly disguised herself as a little old woman, then filled a basket with bright silk ribbons and took it to the forest. She quickly found the dwarves' cottage and knocked on the door. Pretty ribbons for sale, she called in a croaky voice." />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/snowwhiteeight" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="Looking out the window, Snow White smiled when she saw the colourful ribbons. She remembered the dwarves' warning. But what harm could an old peddler woman do? Snow White let her in.\n" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="'Let me lace up your dress with this lovely red ribbon', said the queen, winding it around Snow White's waist. She pulled it so tight that Snow White couldn't breathe and fell to the floor in a faint. Cackling with delight, the queen rushed back to the castle.\n" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/snowwhitenine" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="That evening, when the dwarves found Snow White lying on the floor, they quickly guessed what had happened. They untied the ribbon and Snow White came back to life. When she had her breath back, she told the dwarves about the peddler woman.\n" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="'The queen must have sent that old woman to hurt you. Please, don't let anyone in tomorrow.' Snow White promised she wouldn't.\n" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="The next day, when the queen stood before her magic mirror, it told her. 'Snow White still lives happily in the wood and is still as lovely as she is good.' The queen was furious.\n" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="This time she went to her secret chamber hidden in the castle's highest tower. She made a poison potion and dipped a jewel comb in it, which she put in a basket with some other trinkets.\n" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/snowwhiteten" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="Then she disguised herself as another old woman and went off once again off to the cottage in the forest.\n" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="'Pretty trinkets to buy, pretty trinkets to buy.' She called through the window. Snow White could not resist the basket full of shiny things.\n" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="She let the old woman in. 'Let me put this sparkly comb in your lovely black hair', said the queen. As soon as the poison touched Snow White's head, she fell as if she were dead.\n" />
+
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="When the dwarves came home, they quickly took the comb out of Snow White's hair and once again she came back to life. 'Please', they begged her. 'Don't let anyone in. The queen is determined to hurt you', Snow White promised.\n" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="The next morning when the queen's mirror told her that Snow White was still alive and still more beautiful than she was, the queen flew into a frenzy. She rushed to her secret chamber and mixed up another magic potion, much stronger than the first.\n" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/snowwhiteeleven" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="She put the poison into a big rosy, red apple, disguised herself again and hurried to the dwarves' cottage. When she got there, Snow White was putting some pies on the windowsill to cool.\n\n'Good morning, my dear.'\n" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="'What tasty looking pies. They're cherry pies', said Snow White. 'I hope the dwarves will like them.'\n" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="'They'll love an apple pie even more. And I have some ripe juicy apples for you. I'm sorry, I must not let anyone in.'\n" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="'That's alright, I'll hand you an apple through the window. When you taste it, you'll want the whole basket full. Here, take a bite.'\n" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="She held up the poisoned apple. It looked so mouthwatering that Snow White could not resist. She took a big bite and instantly fell down as if she were dead.\n" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="340dp"
+                android:layout_height="220dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/snowwhitetwelve" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="This time, the dwarves could not bring Snow White back to life. No matter what they tried, Snow White stayed pale, cold and lifeless.\n\nThe dwarves could not bear to part with their beautiful princess.\n" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="They made a glass case to hold her and set it on a bed of wildflowers just outside their cottage. They kept watch day and night so that no one could harm their precious Snow White. \n" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="One morning, a prince from a nearby kingdom came riding through the forest.\n" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="360dp"
+                android:layout_height="220dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/snowwhitethirteen" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="When he saw Snow White, he was enchanted by her beauty.\n\n'Who is this?' he asked the dwarves. The dwarves explained who Snow White was and what had happened to her.\n" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="'She is the loveliest person I have ever seen', said the prince. 'Please, let me take her back to my palace.' The dwarves did not want to part with Snow White, but the prince begged and pleaded.\n" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="'I will love her and look after her forever', he promised. At last, they agreed. As the prince's servants lifted the case, one of them stumbled.\n" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="The case shook and a piece of poisoned apple that had been stuck in Snow White's throat dropped from her mouth. Instantly, she opened her eyes.\n" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="Snow White was alive! As soon as Snow White saw the prince, she fell in love with him.\n" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="They rode back to his kingdom together and soon they were married.\n\nOf course, all the dwarves came to the wedding and stayed to live in the palace. Snow White never saw her evil stepmother again.\n" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="360dp"
+                android:layout_height="220dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/snowwhitefourteen" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="She and the prince, along with the seven dwarves, lived happily for many, many long years.\n\n" />
+
+            <TextView
+                android:layout_width="135dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/berkshire_swash"
+                android:shadowColor="#000000"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:shadowRadius="0.5"
+                android:text="The End"
+                android:textColor="#FFFFFF"
+                android:textSize="37sp"
+                android:textStyle="normal"
+                android:layout_marginBottom="50dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/stopbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E91E63"
+        android:text="Stop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.887"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <ImageButton
+        android:id="@+id/goback"
+        android:layout_width="67dp"
+        android:layout_height="66dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/back" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

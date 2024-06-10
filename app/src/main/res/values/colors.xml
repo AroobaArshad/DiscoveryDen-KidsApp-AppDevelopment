@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="highlightColor">#177C2D</color>
+    <color name="highlightColorDuck">#316A98</color>
+    <color name="highlightColorSnow">#88511F</color>
+    <color name="highlightColorJack">#18712B</color>
+    <color name="placeholderColor">#F6DCA1</color>
+</resources>

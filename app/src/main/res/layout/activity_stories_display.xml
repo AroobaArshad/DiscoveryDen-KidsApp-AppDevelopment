@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/storybg"
+    tools:context=".storiesDisplay">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="365dp"
+        android:layout_height="554dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.757">
+
+        <!-- Grid Layout for 2x2 Images -->
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="-30dp"
+            android:columnCount="2"
+            android:rowCount="4">
+
+            <!-- First row of 2 images -->
+            <ImageView
+                android:id="@+id/redRiding"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="6dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="Little Red Riding Hood"
+                android:scaleType="centerCrop"
+                android:src="@drawable/redridingposter" />
+
+            <ImageView
+                android:id="@+id/duckling"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="6dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="The Ugly Duckling"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ducklingposter" />
+
+            <!-- Second row of 2 images -->
+            <ImageView
+                android:id="@+id/goldilocks"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="6dp"
+                android:layout_marginLeft="20dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="Goldilock and the three Bears"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bears_poster" />
+
+            <ImageView
+                android:id="@+id/jack"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="6dp"
+                android:layout_marginRight="20dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="Jack and the Beanstalk"
+                android:scaleType="centerCrop"
+                android:src="@drawable/jackposter" />
+
+            <!-- Third row of 2 images -->
+            <ImageView
+                android:id="@+id/snowwhite"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="6dp"
+                android:layout_marginLeft="20dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="Snow White and the seven Dwarfs"
+                android:scaleType="centerCrop"
+                android:src="@drawable/snowwhiteposter" />
+
+            <ImageView
+                android:id="@+id/elves"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="6dp"
+                android:layout_marginRight="20dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="The Elves and the Shoemaker"
+                android:scaleType="centerCrop"
+                android:src="@drawable/elvesposter" />
+
+            <!-- Fourth row of 2 images -->
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="6dp"
+                android:layout_marginLeft="20dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="Gingerbread Man"
+                android:scaleType="centerCrop"
+                android:src="@drawable/gingerbreadmanposter" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="6dp"
+                android:layout_marginRight="20dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="Hansel and Gretel"
+                android:scaleType="centerCrop"
+                android:src="@drawable/hanselposter" />
+        </GridLayout>
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/goback"
+        android:layout_width="67dp"
+        android:layout_height="66dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.006"
+        app:srcCompat="@drawable/back" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

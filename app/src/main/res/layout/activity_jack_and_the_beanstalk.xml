@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgstoryeight"
+    tools:context=".jack_and_the_beanstalk">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="318dp"
+        android:layout_height="584dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="162dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/berkshire_swash"
+                android:shadowColor="#BCBCBC"
+                android:shadowDx="4"
+                android:shadowDy="2"
+                android:shadowRadius="0.3"
+                android:text="Jack and the\nBeanstalk"
+                android:textAlignment="center"
+                android:textColor="#13593A"
+                android:textSize="28sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.039" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/jackstory" />
+
+            <ImageButton
+                android:id="@+id/playbutton"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="fitCenter"
+                android:src="@drawable/jackplaybutton" />
+
+
+            <!-- Adding TextView elements here -->
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="Once upon a time, there was a boy named Jack who lived with his poor widowed mother. They had sold almost everything they owned to buy food.\n" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/jackone" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="When their last cow stopped giving milk, Jack's mother sent him to town to sell it." />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="On the way to town, Jack met a strange fellow who told him stories of magic beans.\n" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/jacktwo" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="'Where can I buy some of these magic beans for my mother?' asked Jack.\n\n'I have the last five magic beans, and I will sell them to you because you are a good boy.' The strange man smiled at Jack.\n" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="'Well, I have nothing but our old cow, and we need the money I would get by selling her for food.'\n\nThe man replied, 'Trust me, my boy. These beans will bring you food and fortune, and your mother will be proud.'" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="\nJack hesitated, but finally traded the cow for the beans. When Jack returned home, his mother was furious and threw the beans out of the kitchen window crying.\n" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/jackthree" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="Jack went to bed that night, sad and hungry. He woke the next morning to find a huge beanstalk growing in the garden.\n\n'The beans really are magic', he cried.\n"/>
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/jackfour" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="Jack saw that the stalk reached the clouds. He remembered stories about the clouds containing gold and started climbing the stalk to see what he could find.\n" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/jackfive" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="When he got to the top, he saw a huge castle and headed for it.\n\nThe door was so big that Jack could crawl beneath it. Once inside, he saw a giant man eating his dinner.\n" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/jacksix" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="When the giant was finished, he called his servant to bring him his bag of gold coins.\n\nWhile counting his money, the giant became drowsy and fell asleep. Jack crept up to the giant and stole his bag of gold.\n" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/jackseven" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="He struggled down the beanstalk with his money, and when he got to the bottom, he called for his mother.\n\nJack's mother was very happy because this money was the same money that the giant had stolen from Jack's father many years ago. But she was also afraid.\n" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="She knew how dangerous the giant was and made Jack promise he would never go back. While Jack did promise, after a while the money began to run out.\n\nJack began to wonder if he would find anything else in the castle.\n" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="Once again, Jack decided he would go back up the beanstalk and back to the castle. Once again, he reached the castle and climbed under the castle door. And once again, he found the giant eating dinner at his table.\n" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="When he was finished this time, however, the giant called for his magic hen.\n" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/jackeight" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="Jack was amazed when he saw the hen lay an egg of pure gold. While the giant was watching the hen, he again became drowsy and fell asleep.\n\nJack crept silently to the table and grabbed the hen.\n" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/jacknine" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="When he returned home, his mother was very angry that Jack had gone back to the castle. She grabbed Jack's axe, intent on cutting the beanstalk down.\n" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="Jack begged her not to and showed her how the hen could lay gold in eggs. Jack's mother put the axe down and watched with delight as the hen laid one beautiful golden egg after another.\n" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/jackten" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="After a while, Jack's curiosity got the better of him and he once again thought about what else he could find in the castle.\n" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="Once again, Jack decided he would go back up the beanstalk and back to the castle. Once again, he reached the castle and climbed under the castle door. And once again, he found the giant eating dinner at his table.\n" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="And once again, when he was finished this time, however, the giant called for his magic harp.\n\nJack watched as the harp began to play beautiful music all by itself. The music was so beautiful that before long, the lazy giant once again fell fast asleep.\n" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="320dp"
+                android:layout_height="220dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/jackeleven" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="Jack crept silently to the table. But as soon as Jack picked up the harp, it began playing very loudly in his strange hands. And the giant awoke!\n\n'Thee-fie-foe-fum', yelled the giant, and he chased after the boy and his harp.\n" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="Jack raced to the beanstalk and slid down. He could feel the stalk shake as the giant began climbing down. Luckily, his axe was nearby, and he began chopping down the beanstalk.\n" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="340dp"
+                android:layout_height="220dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/jacktwelve" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="The beanstalk shook and cracked under the weight of the giant and Jack's chopping. Finally, the stalk snapped, and the giant fell to earth, never to be seen again.\n" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="360dp"
+                android:layout_height="220dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/jackthirteen" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika"
+                android:textSize="18sp"
+                android:text="Jack and his mother lived happily ever after.\n\n" />
+
+            <TextView
+                android:layout_width="135dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/berkshire_swash"
+                android:shadowColor="#000000"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:shadowRadius="0.5"
+                android:text="The End"
+                android:textColor="#FFFFFF"
+                android:textSize="37sp"
+                android:textStyle="normal"
+                android:layout_marginBottom="50dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/stopbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E91E63"
+        android:text="Stop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.887"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <ImageButton
+        android:id="@+id/goback"
+        android:layout_width="67dp"
+        android:layout_height="66dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/back" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

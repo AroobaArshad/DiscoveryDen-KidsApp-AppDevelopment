@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="260dp"
+    android:layout_height="360dp"
+    android:layout_margin="16dp"
+    android:clickable="true"
+    android:focusable="true">
+
+    <include
+        android:id="@+id/front"
+        layout="@layout/flashcard_front"
+        android:visibility="visible" />
+    <include
+        android:id="@+id/back"
+        layout="@layout/flashcard_back"
+        android:visibility="gone" />
+</FrameLayout>
