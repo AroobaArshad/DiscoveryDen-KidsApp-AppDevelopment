@@ -33,7 +33,7 @@ class SplashScreen : AppCompatActivity() {
         }, SPLASH_TIME_OUT)
 
         val videoView: VideoView = findViewById(R.id.videoView)
-        val videoUri: Uri = Uri.parse("https://i.imgur.com/ughSYiQ.mp4")
+        val videoUri: Uri = Uri.parse("https://i.imgur.com/jLIB40V.mp4")
 
         videoView.setVideoURI(videoUri)
         videoView.setOnPreparedListener { mediaPlayer: MediaPlayer ->
