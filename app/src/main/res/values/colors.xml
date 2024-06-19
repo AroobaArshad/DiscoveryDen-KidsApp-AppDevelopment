@@ -6,5 +6,6 @@
     <color name="highlightColorDuck">#316A98</color>
     <color name="highlightColorSnow">#88511F</color>
     <color name="highlightColorJack">#18712B</color>
+    <color name="highlightColorElves">#582A98</color>
     <color name="placeholderColor">#F6DCA1</color>
 </resources>

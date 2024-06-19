@@ -36,7 +36,7 @@
                 android:shadowRadius="0.3"
                 android:text="The Elves and\nthe Shoemaker"
                 android:textAlignment="center"
-                android:textColor="#3B3361"
+                android:textColor="#42396A"
                 android:textSize="28sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -121,7 +121,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/andika"
                 android:textSize="18sp"
-                android:text="'Look at those tiny, neat stitches. Not a single stitch out of place. These shoes are so fine, they'll fetch a very high price.' He put the shoes in his window right at the front where everyone could see them.\n" />
+                android:text="\n'Look at those tiny, neat stitches. Not a single stitch out of place. These shoes are so fine, they'll fetch a very high price.' He put the shoes in his window right at the front where everyone could see them.\n" />
 
             <TextView
                 android:id="@+id/textView6"
@@ -162,7 +162,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/andika"
                 android:textSize="18sp"
-                android:text="'There will be plenty of time to make the shoes tomorrow morning', he said, as he and his wife climbed the stairs to bed.\n" />
+                android:text="\n'There will be plenty of time to make the shoes tomorrow morning', he said, as he and his wife climbed the stairs to bed.\n" />
 
             <TextView
                 android:id="@+id/textView10"
@@ -195,7 +195,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/andika"
                 android:textSize="18sp"
-                android:text="'Now I can buy enough leather to make four pairs of shoes', the shoemaker told his wife.\n" />
+                android:text="\n'Now I can buy enough leather to make four pairs of shoes', the shoemaker told his wife.\n" />
 
             <TextView
                 android:id="@+id/textView13"
@@ -269,7 +269,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/andika"
                 android:textSize="18sp"
-                android:text="Picking up some needles and thread, they began to sew. Their nimble fingers moved so quickly that the shoes seemed to come together by magic.\n\nAs they worked, they sung, 'See our needles flash and gleam, as we sew each fine straight seam, every pair of shoes we stitch, Helps the shoemaker get rich.'" />
+                android:text="\nPicking up some needles and thread, they began to sew. Their nimble fingers moved so quickly that the shoes seemed to come together by magic.\n\nAs they worked, they sung, 'See our needles flash and gleam, as we sew each fine straight seam, every pair of shoes we stitch, Helps the shoemaker get rich.'" />
 
             <ImageView
                 android:id="@+id/imageView8"
@@ -333,7 +333,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/andika"
                 android:textSize="18sp"
-                android:text="Just as before, the door opened at the stroke of midnight, and the elves danced in.\n\nWhen they leapt onto the workbench and saw the presents waiting for them, they danced with delight. The little elves eagerly tore open the parcels and put on their new clothes.\n" />
+                android:text="\nJust as before, the door opened at the stroke of midnight, and the elves danced in.\n\nWhen they leapt onto the workbench and saw the presents waiting for them, they danced with delight. The little elves eagerly tore open the parcels and put on their new clothes.\n" />
 
             <TextView
                 android:id="@+id/textView25"
@@ -357,7 +357,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/andika"
                 android:textSize="18sp"
-                android:text="Then they leapt off the workbench and skipped merrily out the door. The elves never returned, but the shoemaker and his wife never forgot them.\n" />
+                android:text="\nThen they leapt off the workbench and skipped merrily out the door. The elves never returned, but the shoemaker and his wife never forgot them.\n" />
 
             <TextView
                 android:id="@+id/textView27"
@@ -385,5 +385,32 @@
         </LinearLayout>
 
     </ScrollView>
+
+    <Button
+        android:id="@+id/stopbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E91E63"
+        android:text="Stop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.887"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <ImageButton
+        android:id="@+id/goback"
+        android:layout_width="67dp"
+        android:layout_height="66dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/back" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

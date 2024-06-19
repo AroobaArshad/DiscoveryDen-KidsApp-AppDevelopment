@@ -36,7 +36,6 @@ class loginPage : AppCompatActivity() {
                 // Show toast message if any of the fields is empty
                 Toast.makeText(this, "Please fill all fields", Toast.LENGTH_SHORT).show()
             } else {
-                // Proceed to the next screen if both fields are filled
                 val sharedPreferences = getSharedPreferences("MyAppPreferences", MODE_PRIVATE)
                 val editor = sharedPreferences.edit()
                 editor.putString("USER_NAME", name)
